@@ -3,7 +3,7 @@
 //separator_l1 - 1st level / dimmension
 //separator_l2 - 2nd level / dimmension
 
-function txtToTwoDimArr(str_var,separator_l1,separator_l2){
+function strToTwoDimArr(str_var,separator_l1,separator_l2){
 var tmp_arr1 = txtToArr(str_var,separator_l2);
 var tmp_arr2 =[];
 var tmp_arr3 = [];
